@@ -120,5 +120,43 @@ header p {
 
 /* Section - 2 | row 2 */
 
+.row2 {
+    background: #a864a8;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.row2 img {
+    width: 40%;
+    display: inline-block;
+}
+
+.row2 p {
+    font-size: 1.4em;
+    padding: 3% 0;
+    color: white;
+}
+
+.row3-1 {
+    display: inline-block;
+    width: 100%;
+    background:#E0E0EB;
+    font-size: 1.6em;
+    text-align: center;
+    padding: 4% 0;
+}
+
+span a {
+    text-decoration: underline;
+    color: #ec008c;
+}
+
+footer p {
+    text-align: center;
+    padding-bottom: 4%;
+    background: white;
+}
+
 
 
