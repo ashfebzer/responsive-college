@@ -159,5 +159,44 @@ footer p {
     background: white;
 }
 
+/* -------
+DEVICE > 600PX
+---------- */
 
+/* TOP MENU */
 
+header ul {
+    position: absolute;
+    top: 8%;
+    text-align: center;
+    background: white;
+}
+
+header li, header li a {
+    display: inline-block;
+    background-color: transparent;
+    border-bottom: none;
+    color: 4a525f;
+    padding: 5px;
+}
+
+header li{
+    border-right: 1px solid #4A525F;
+}
+
+header li:last-child {
+    border-right: none;
+}
+
+header li:hover, header li a:hover {
+    background-color: burlywood;
+}
+
+/* End Top Menu */
+header p {
+    bottom: 42%;
+    font-size: 2em;
+}
+#apply-btn {
+    bottom: 30%;
+}
